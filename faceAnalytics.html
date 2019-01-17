@@ -1,0 +1,25 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        </head>
+        <body>
+            <h1>Face Analytics API Demo</h1>
+            <div>
+                <h3>Enter Image URL</h3>
+                <input id = "input"></input>
+            </div>
+            <div>
+                <button id ="analyzeButton" onclick="analyze()"> Analyze </button>
+            </div>
+            <div>
+                <h3>Image </h3>
+                <img src="" style="height: 500px; width: 350px" id="outputImg" alt="No Image Available">
+                <h3>Attributes</h3>
+                <p id="outputAttr"></p>
+            </div>
+
+            <script src="faceAnalytics.js" type="text/javascript" charset="utf-8" async defer></script>
+        </body>
+    </html>
