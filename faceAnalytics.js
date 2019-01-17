@@ -9,7 +9,7 @@ function analyze(){
     var imgElem = $("#outputImg");
     var Link = $("#input").val();
     var URL = 'https://westcentralus.api.cognitive.microsoft.com/face/v1.0/detect?' + $.param(params);
-    var Key = 'f8ade2828fe24445a7eccb70fadaf815';
+    var Key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
     var reqBody = {
         "url": Link
